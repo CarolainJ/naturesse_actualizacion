@@ -1,0 +1,18 @@
+# Ignorar entorno virtual
+venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# Archivos de Jupyter Notebook temporales
+.ipynb_checkpoints/
+
+# Archivos de configuración local
+.env
+.DS_Store
