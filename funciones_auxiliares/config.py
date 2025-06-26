@@ -5,7 +5,6 @@ Centraliza todas las configuraciones y constantes del proyecto.
 
 import os
 import pandas as pd
-from datetime import datetime
 
 RUTA_BASE = 'C:/Users/Usuario/Downloads/naturesse/'
 
@@ -19,14 +18,15 @@ RUTAS = {
 # NOMBRES DE ARCHIVOS DE ENTRADA
 ARCHIVOS_ENTRADA = {
     'VENTAS': "Tabla ventas.xlsx",
+    'VENTAS_RFM': "Tabla ventas rfm.xlsx",
     'CLIENTES': "Tabla de clientes.xlsx",
     'COSTOS': "Tabla costos.xlsx",
     'METAS': "Tabla Metas.xlsx",
     'MARCA_REFERENCIA': "Tabla marca, referencia y producto.xlsx",
     
-    'CLIENTE_PROMOTORA': "MARZO PROMOTORA 2025.xlsx",
-    'CLIENTE_MAKRO': "MAKRO 2025.xlsx",
-    'CLIENTE_FARMATODO': "ABR 2025.xlsx"
+    'CLIENTE_PROMOTORA': "MAR_PROMOTORA.xlsx",
+    'CLIENTE_MAKRO': "ABR_MAKRO.xlsx",
+    'CLIENTE_FARMATODO': "JUN_FARMATODO.xlsx"
 }
 
 
@@ -34,12 +34,13 @@ ARCHIVOS_ENTRADA = {
 ARCHIVOS_CONSOLIDADOS = {
     'VENTAS_CONSOLIDADOS': "Tabla ventas.xlsx",
     'COSTOS_CONSOLIDADOS': "Consolidado Costos.xlsx",
+    'FAMILIA': "tabla_familia.xlsx",
     
-    'CONSOLIDADO_SELL_OUT': "Tiendas Sell out .xlsx",
+    'CONSOLIDADO_SELL_OUT': "Tiendas Sell out.xlsx",
     'CONSOLIDADO_SELL_OUT_CIUDADES': "Tiendas Sell out ciudad descripcion.xlsx",
 }
 
-# NOMBRES DE ARCHIVOS DE SALIDA - falta
+# NOMBRES DE ARCHIVOS DE SALIDA
 ARCHIVOS_SALIDA = {
     'VENTAS_PROCESADAS': "tabla_ventas_procesada.xlsx",
     'CONTEO_LINEA_MERCADO': "conteo_linea_mercado.xlsx",
