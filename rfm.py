@@ -350,7 +350,7 @@ class RFMAnalysis:
         
         return resultados_rfm
     
-    
+
 # EJECUCIÓN DEL ANÁLISIS
 analizador = RFMAnalysis()
 
