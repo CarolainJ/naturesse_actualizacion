@@ -20,6 +20,23 @@ git clone https://github.com/CarolainJ/naturesse_actualizacion.git
 
 ## 🔧 Requisitos
 
+### Crear entorno virtual (opcional pero recomendado)
+
+Antes de instalar las dependencias, se recomienda crear un entorno virtual:
+
+En Windows:
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+En macOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+
 Antes de ejecutar el proyecto, asegúrate de:
 
 1. Tener **Python 3.8 o superior** instalado.
@@ -28,6 +45,7 @@ Antes de ejecutar el proyecto, asegúrate de:
 ```bash
 pip install -r requirements.txt
 ```
+(Debes tener el entorno virtual activo)
 
 ---
 
